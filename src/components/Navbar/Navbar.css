@@ -1,0 +1,38 @@
+.nav {
+  height: 7vh;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  /* position: sticky; */
+  top: 5%;
+  z-index: 1000;
+}
+.navbar {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #44b499;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row; 
+  margin: 2rem;  
+  padding: 6px;
+  border-radius: 70px;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  -ms-border-radius: 70px;
+  -o-border-radius: 70px;
+}
+.nav-logo{
+    margin-left:1rem;
+}
+.nav-topList {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.nav-list .listItem {
+  list-style: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+}

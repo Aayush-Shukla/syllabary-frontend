@@ -1,0 +1,31 @@
+.hero {
+  padding-top: 7rem;
+  margin: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.hero-title h1{
+    font-size: 3.2rem;
+}
+.hero-title span{
+    color: #44b499;
+}
+
+.hero-desc{
+    width:90%;
+    margin-top: 1rem;
+}
+
+.hero-left button{
+    padding: 9px 16px 9px 16px;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    background-color: #fff;
+    border: 2px solid #1c8a70;
+    color: #249077;
+}
+
+.hero-right img{
+    margin-top: -6rem;
+}
