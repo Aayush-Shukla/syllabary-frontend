@@ -29,7 +29,7 @@ export default function Grid() {
   const color = useColorModeValue('gray.700', '#gray.300');
   return (
     
-    <Box  w={'full'} h={'100vh'} bg={bg} p={'170px 5px' }>
+    <Box  w={'full'} minH={'100vh'} bg={bg} p={'170px 5px' }>
     <Stack spacing={4} as={Container}  maxW={'3xl'} textAlign={'center'}>
       <Heading fontSize={'3xl'}>This is the headline</Heading>
       <Text color={'gray.600'} fontSize={'xl'}>

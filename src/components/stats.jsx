@@ -36,7 +36,7 @@ import {
   
   export default function Stats() {
     return (
-      <Box  w={'full'} h={'100vh'} p={{base: '70px 15vw', md: '170px 15vw' }}>
+      <Box  w={'full'} minH={'100vh'} p={{base: '70px 15vw', md: '170px 15vw' }}>
         <chakra.h1
           textAlign={'center'}
           fontSize={'4xl'}

@@ -30,7 +30,7 @@ import {
     const color = useColorModeValue('gray.700', '#gray.700');
     return (
       
-        <Box bg={bg} w={'full'} h={'100vh'} mx={'0'} p={'140px 5px'} >
+        <Box bg={bg} w={'full'} minH={'100vh'} mx={'0'} p={'140px 5px'} >
         <Stack
           as={Box}
           textAlign={'center'}

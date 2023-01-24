@@ -18,10 +18,10 @@ import circle from '../assets/svgs/Vector-1.svg';
 export default function Hero() {
   const bg = useColorModeValue('white', '#202236');
   return (
-    <Box w={'full'} h={'100vh'} p={'170px 5px' } bg={bg}>
-      <Image src={ring} mt={-20} position={'absolute'} zIndex={1} />
+    <Box w={'full'} minH={'100vh'} m='auto' p={{base: '25px 5px', sm:'170px 5px' }} bg={bg}>
+      <Image src={ring} mx={'auto'} mt={-20} position={'absolute'}  display={{ base: 'none', sm: 'block' }} zIndex={1} />
       <Stack spacing={4} as={Container} maxW={'5xl'} textAlign={'center'}>
-        
+
       </Stack>
 
       <Box position={'relative'}>
@@ -34,6 +34,9 @@ export default function Hero() {
             zIndex={-1}
           />
           <Stack direction={{ base: 'column', lg: 'row' }}>
+
+
+          <Image  src= {hero} mx={'auto'} display={{ base: 'block', sm: 'none' }} boxSize={{ base: '70vw', md: '500px' }}/>
             <Stack
               flex={1}
               justify={{ lg: 'center' }}
@@ -81,7 +84,7 @@ export default function Hero() {
            
 
 
-            <Image  src= {hero}  boxSize='500px'/>
+            <Image  src= {hero}  display={{ base: 'none', sm: 'block' }} boxSize={{ base: '70vw', md: '500px' }}/>
 
           
           </Stack>
